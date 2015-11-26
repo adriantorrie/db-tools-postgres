@@ -1,2 +1,2 @@
 # db-tools-postgres
-DBA Scripts for managing postgresql
+DBA Scripts for managing Postgresql
