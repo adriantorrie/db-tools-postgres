@@ -7,12 +7,17 @@
 -- Get data regrading hard drive space used by all objects
 -- in the current database connected to
 
+-- Usage:
+-- ------
+--  - run statements
+
 -- References:
 -- -----------
 --  Postgresql Wiki - Disk Usage
 --      - https://wiki.postgresql.org/wiki/Disk_Usage
 
-select pg_size_pretty(pg_database_size('<db-name>'));
+select pg_size_pretty(pg_database_size('<db-name>'))
+;
 
 
 -- shows the size of all the individual parts. Tables which have both regular
